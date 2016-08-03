@@ -1,0 +1,9 @@
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Data.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Data.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\obj\Debug\Data.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\obj\Debug\Data.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Models.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Models.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Dapper.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\CarDealershipProject\Data\bin\Debug\Dapper.xml

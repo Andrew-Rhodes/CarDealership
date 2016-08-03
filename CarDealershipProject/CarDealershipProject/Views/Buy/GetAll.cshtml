@@ -1,0 +1,52 @@
+﻿@model List<Models.Vehicle>
+@{
+    ViewBag.Title = "GetAll";
+}
+<div class="getAllBackground">
+    <h2>All Vehicles</h2>
+
+    <div class="row" style="background-color: white;">
+        <h2>All Cars</h2>
+        <div class="col-xs-12">
+            <table id="vehicles" class="table table-striped table-condensed table-responsive">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>Mileage</th>
+                    <th>Price</th>
+                    <th>Trades ?</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                @foreach (var vehicle in Model)
+                {
+                    <tr>
+                        <td>@vehicle.VehicleId</td>
+                        <td>@vehicle.Make</td>
+                        <td>@vehicle.Model</td>
+                        <td>@vehicle.Year</td>
+                        <td>@vehicle.Milage</td>
+                        <td>@vehicle.Price</td>
+
+                        @if (@vehicle.Trade == 1)
+                        {
+                            <td>Yes</td>
+                        }
+
+                        else
+                        {
+                            <td>No</td>
+                        }
+
+                    </tr>
+                }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

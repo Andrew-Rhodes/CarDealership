@@ -1,0 +1,40 @@
+﻿@model List<Models.Vehicle>
+@{
+    ViewBag.Title = "TradesHome";
+}
+
+
+<div class="getAllBackground">
+    <h2>TradesHome</h2>
+
+    <div class="row" style="background-color: white;">
+        <h2>Trades</h2>
+        <table id="vehicles" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>Mileage</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var vehicle in Model)
+            {
+                    <tr>
+                        <td>@vehicle.VehicleId</td>
+                        <td>@vehicle.Make</td>
+                        <td>@vehicle.Model</td>
+                        <td>@vehicle.Year</td>
+                        <td>@vehicle.Milage</td>
+                        <td>@vehicle.Price</td>
+                        <td></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
